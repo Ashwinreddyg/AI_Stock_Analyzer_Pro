@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ai-stock-analyzer-pro
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /_stcore/health
